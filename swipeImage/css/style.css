@@ -1,0 +1,45 @@
+#listImg{
+    position: relative;
+    left: 0px;
+    list-style-type: none;
+    height: 100%;
+    transition: left 1s ease-in-out;
+}
+
+ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+
+.slider-wrapper{
+    display: flex;
+    height: 320px;
+    width: 600px;
+    border: 1px solid #c3c3c3;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#listImg li{
+    width: 400px;
+    height: 100%;
+    float: left;
+}
+#middle{
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+}
+
+section > img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#listImg img{
+    width: 400px;
+    height: 100%;
+}
